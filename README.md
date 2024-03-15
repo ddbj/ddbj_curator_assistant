@@ -17,7 +17,7 @@ Usage
 
 ```
 # supercom
-sh /home/andrea/scripts/ddbj_mss_validation
+bash /home/andrea/scripts/ddbj_mss_validation
 ```
 
 Output files (Rfixed directory)
