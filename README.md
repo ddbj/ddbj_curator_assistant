@@ -1,20 +1,52 @@
 # DDBJ Curators' Assistant
 
-The system consists of a database, named dblink_ddbj, that contains the most relevant information from DDBJ Database designed specially for DDBJ curators, an easy-to-use search engine tool, search_dblink, for quick data retrieval and a set of tools designed to validate (ddbj_mss_validation), and quickly auto-correct (ddbj_autofix) files submitted to DDBJ's Mass Submission System. Besides, it includes two other tools that automatically upload files to DDBJ Database (ddbj_sakura2DB) and update Google spreadsheet (ddbj_kaeru) for work tracking.  
-
+The system consists of:
+- A set of tools designed to automated and standardize, in a fast and easy way, the curation of Sequence Datasets submitted to DDBJ. It comprises four steps: validation (ddbj_mss_validation); auto-correction (ddbj_autofix); auto upload files to DDBJ Database (ddbj_sakura2DB); and update work tracking spreadsheet (ddbj_kaeru, "kaeru 帰る" means "go home" in Japanese language, in the sense that the work is done). 
+- A database, named dblink_ddbj, that contains the most relevant information from DDBJ Database, designed specially for DDBJ curators.
+- An easy-to-use search engine tool, search_dblink, for quick data retrieval.
+ 
 ---
 ## Mass Dataset Documentation
 
 ![ag_packages_202204_MSS_workflow](https://github.com/ddbj/ddbj_curator_assistant/assets/85154564/afb41b5b-da4e-4cf0-9ceb-bca6d9058b91)
 
 1. [DDBJ Mass Validation](https://github.com/ddbj/ddbj_curator_assistant/tree/main/ddbj_mss_validation)
-   - An easy command line that identifies submitted files (annotation and fasta) and checks inconsistencies based on DDBJ rules. 
-2. [DDBJ Autofix](https://github.com/ddbj/ddbj_curator_assistant/tree/main/ddbj_autofix)
+   - An easy command line that identifies submitted files (annotation and fasta) and checks inconsistencies based on DDBJ rules.
+   - Requirement: BioSample
+   - Command line production
+   ```
+   bash /home/andrea/scripts/ddbj_mss_validation
+   ```
+   - Command line beta
+   ```
+   bash /home/andrea/scripts/ddbj_mss_validation_beta
+   ```
+3. [DDBJ Autofix](https://github.com/ddbj/ddbj_curator_assistant/tree/main/ddbj_autofix)
    - A simple command line that automatically fix the errors detected by DDBJ Mss Validation.
-3. [DDBJ Sakura2DB](https://github.com/ddbj/ddbj_curator_assistant/ddbj_sakura2DB) 
+   - Command line production
+   ```
+   bash /home/andrea/scripts/ddbj_autofix
+   ```
+   - Command line beta (CAUTION! Use this version when running ddbj_mss_validation_beta)
+   ```
+   bash /home/andrea/scripts/ddbj_autofix_beta
+   ```
+4. [DDBJ Sakura2DB](https://github.com/ddbj/ddbj_curator_assistant/ddbj_sakura2DB) 
      - Upload corrected files, annotation and fasta, to Tsunami DB.
-4. [DDBJ Kaeru](https://github.com/ddbj/ddbj_curator_assistant/tree/main/ddbj_kaeru)
+     - Command line production
+       ```
+       bash /home/andrea/scripts/ddbj_sakura2DB
+       ```
+        - Command line beta
+       ```
+       bash /home/andrea/scripts/ddbj_sakura2DB_beta
+       ```
+5. [DDBJ Kaeru](https://github.com/ddbj/ddbj_curator_assistant/tree/main/ddbj_kaeru)
      - Update work tracking spreadsheet.
+     - Command line production
+     ```
+     bash /home/andrea/scripts/ddbj_kaeru
+     ```
 ---
 ## DBLink DDBJ and Search DBLink Documentation
 
