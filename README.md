@@ -1,4 +1,11 @@
-# ddbj_mss_validation
+# Validation and Auto-Correction System for DDBJ Mass Submission System
+
+It is composed by two sofware:
+DDBJ MSS Validation: check for errors in the annotation and fasta files submitted to DDBJ.
+DDBJ AUTOFIX: automated system to fix the files based on [DDBJ submission rules](https://www.ddbj.nig.ac.jp/ddbj/mss-e.html).
+
+ddbj_mss_validation
+---
 
 Description
 ---
