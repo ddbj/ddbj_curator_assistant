@@ -7,8 +7,9 @@ The system consists of:
  
 ---
 ## Mass Dataset Documentation
+![ag_packages_202403_mass_pipeline](https://github.com/ddbj/ddbj_curator_assistant/assets/85154564/f7a0507d-a50a-4d02-bc76-76a7929cc0b9)
 
-![ag_packages_202204_MSS_workflow](https://github.com/ddbj/ddbj_curator_assistant/assets/85154564/afb41b5b-da4e-4cf0-9ceb-bca6d9058b91)
+
 
 1. [DDBJ Mass Validation](https://github.com/ddbj/ddbj_curator_assistant/tree/main/ddbj_mss_validation)
    - An easy command line that identifies submitted files (annotation and fasta) and checks inconsistencies based on DDBJ rules.
