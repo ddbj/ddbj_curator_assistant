@@ -1,13 +1,14 @@
 # DDBJ Curators' Assistant
 
 The system consists of:
-- A set of tools designed to automated and standardize, in a fast and easy way, the curation of Sequence Datasets submitted to DDBJ. It comprises four steps: validation (ddbj_mss_validation); auto-correction (ddbj_autofix); auto upload files to DDBJ Database (ddbj_sakura2DB); and update work tracking spreadsheet (ddbj_kaeru, "kaeru 帰る" means "leave, go home" in Japanese language, in the sense that the work is done). 
+- A set of tools designed to automate and standardize, in a fast and easy way, the curation of Sequence Datasets submitted to DDBJ. It comprises four steps: validation (ddbj_mss_validation); auto-correction (ddbj_autofix); auto upload files to DDBJ Databases (ddbj_sakura2DB); and update work tracking spreadsheet (ddbj_kaeru, "kaeru 帰る" means "leave, go home" in Japanese language, in the sense that the work is done). 
 - A database, named dblink_ddbj, that contains the most relevant information from DDBJ Database, designed specially for DDBJ curators.
-- An easy-to-use search engine tool, search_dblink, for quick data retrieval.
+- An easy-to-use search engine tool, search_dblink, for quickly and simultaneously retrieving data from a wide range of accession IDs.
  
 ---
 ## Mass Dataset Documentation
-![ag_packages_202403_mass_pipeline](https://github.com/ddbj/ddbj_curator_assistant/assets/85154564/e2fe2c4c-d92a-408c-8f94-30a8b7164dbb)
+
+![ag_packages_202204_MSS_workflow](https://github.com/ddbj/ddbj_curator_assistant/assets/85154564/4abd8688-e6bd-40b2-b5c8-90fb59d14032)
 
 
 1. [DDBJ Mass Validation](https://github.com/ddbj/ddbj_curator_assistant/tree/main/ddbj_mss_validation)
