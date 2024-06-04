@@ -4,6 +4,4 @@ Application that organizes assembly records from DDBJ to the rules of INSDC set 
 
 ### Pipeline Overview
 
-![Assembly_manager_pipeline_v0 5](https://github.com/ddbj/ddbj_curator_assistant/assets/85154564/7395627b-dcbc-405b-bdd9-683b346d5e2b)
-
-[future_assembly_manager_pipeline.pdf](https://github.com/ddbj/ddbj_curator_assistant/files/15404206/future_assembly_manager_pipeline.pdf)
+![Assembly_manager_pipeline_v2](https://github.com/ddbj/ddbj_curator_assistant/assets/85154564/7328000d-18e4-456f-98a1-a273afbea212)
