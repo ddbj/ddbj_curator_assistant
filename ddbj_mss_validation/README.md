@@ -14,4 +14,4 @@ Rules are implemented based on the file type and segment. Currently, DDBJ accept
 ![ag_packages_202403_biological_part](https://github.com/ddbj/ddbj_curator_assistant/assets/85154564/eb366c64-06d4-435a-b676-75c230ead292)
 
 #### Implemented rules for the FASTA files and misc_features (SVP)
-![svp_202411](https://github.com/user-attachments/assets/f018702c-615e-4186-80b0-821779812c98)
+![svp_202411](https://github.com/user-attachments/assets/08ecaaaa-0138-4e07-b655-8005e9c4c874)
