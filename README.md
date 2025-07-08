@@ -15,18 +15,18 @@ Notice ! The MSS tool repository have been migrated to [ddbj/mssassist](https://
 1. [DDBJ Mass Validation](https://github.com/ddbj/ddbj_curator_assistant/tree/main/ddbj_mss_validation)
    - An easy command line that identifies submitted files (annotation and fasta) and checks inconsistencies based on DDBJ rules.
    - Requirement: BioSample
-   - Command line
-   ```
-   /home/w3const/mssassist/ddbj_mss_validation
-   ```
+   - Command line 
+     ```
+     /home/w3const/mssassist/ddbj_mss_validation
+     ```
    - Former command line (production)
-   ```
-   bash /home/andrea/scripts/ddbj_mss_validation
-   ```
+     ```
+     bash /home/andrea/scripts/ddbj_mss_validation
+     ```
         - Beta version
-        ```
-        bash /home/andrea/scripts/ddbj_mss_validation_beta
-        ```
+          ```
+          bash /home/andrea/scripts/ddbj_mss_validation_beta
+          ```
 3. [DDBJ Autofix](https://github.com/ddbj/ddbj_curator_assistant/tree/main/ddbj_autofix)
    - A simple command line that interactively suggests corrections that have been detected by DDBJ Mss Validation and automatically fixes them.
    - Command line
