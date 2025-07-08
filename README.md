@@ -61,10 +61,10 @@ Notice ! The MSS tool repository have been migrated to [ddbj/mssassist](https://
      ```
      /home/w3const/mssassist/ddbj_kaeru
      ```
-     - Former command line
-       ```
-       bash /home/andrea/scripts/ddbj_kaeru
-       ```
+   - Former command line
+     ```
+     bash /home/andrea/scripts/ddbj_kaeru
+     ```
 ---
 ## DBLink DDBJ and Search DBLink Documentation
 
