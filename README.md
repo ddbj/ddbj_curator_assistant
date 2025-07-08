@@ -10,7 +10,8 @@ The system consists of:
 
 ![ag_packages_202204_MSS_workflow](https://github.com/ddbj/ddbj_curator_assistant/assets/85154564/4abd8688-e6bd-40b2-b5c8-90fb59d14032)
 
-Notice ! The MSS tool repository have been migrated to [ddbj/mssassist](https://github.com/ddbj/mssassist).
+***Notice! The MSS tool repository have been migrated to [ddbj/mssassist](https://github.com/ddbj/mssassist). Please switch to /home/w3const/mssassist tools. In w3const/mssassist, update frequency of the data tables has been increased than that of the tables in /home/andrea/script.***
+
 
 1. [DDBJ Mass Validation](https://github.com/ddbj/ddbj_curator_assistant/tree/main/ddbj_mss_validation)
    - An easy command line that identifies submitted files (annotation and fasta) and checks inconsistencies based on DDBJ rules.
