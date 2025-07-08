@@ -52,6 +52,7 @@ Notice ! The MSS tool repository have been migrated to [ddbj/mssassist](https://
    bash /home/andrea/scripts/ddbj_sakura2DB
    ```
       - Beta version
+       -  next
      ```
      bash /home/andrea/scripts/ddbj_sakura2DB_beta
      ```
