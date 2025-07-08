@@ -30,42 +30,41 @@ Notice ! The MSS tool repository have been migrated to [ddbj/mssassist](https://
 3. [DDBJ Autofix](https://github.com/ddbj/ddbj_curator_assistant/tree/main/ddbj_autofix)
    - A simple command line that interactively suggests corrections that have been detected by DDBJ Mss Validation and automatically fixes them.
    - Command line
-   ```
-   /home/w3const/mssassist/ddbj_autofix
-   ```
+     ```
+     /home/w3const/mssassist/ddbj_autofix
+     ```
    - Former command line
-   ```
-   bash /home/andrea/scripts/ddbj_autofix
-   ```
-     - Beta (CAUTION! Use this version when running ddbj_mss_validation_beta)
      ```
-     bash /home/andrea/scripts/ddbj_autofix_beta
+     bash /home/andrea/scripts/ddbj_autofix
      ```
+       - Beta (CAUTION! Use this version when running ddbj_mss_validation_beta)
+         ```
+         bash /home/andrea/scripts/ddbj_autofix_beta
+         ```
 5. [DDBJ Sakura2DB](https://github.com/ddbj/ddbj_curator_assistant/ddbj_sakura2DB) 
    - Interactive command line that automatically: a) identifies the file type; b) runs sakura2db (test and actual) for the corrected files to upload the files to their respective databases at DDBJ (Tsunami); c) moves the files to DONE directory.
    - Command line
-   ```
-   /home/w3const/mssassist/ddbj_sakura2DB
-   ```
+     ```
+     /home/w3const/mssassist/ddbj_sakura2DB
+     ```
    - Former command line
-   ```
-   bash /home/andrea/scripts/ddbj_sakura2DB
-   ```
+     ```
+     bash /home/andrea/scripts/ddbj_sakura2DB
+     ```
       - Beta version
-       -  next
-     ```
-     bash /home/andrea/scripts/ddbj_sakura2DB_beta
-     ```
+       ```
+       bash /home/andrea/scripts/ddbj_sakura2DB_beta
+       ```
 6. [DDBJ Kaeru](https://github.com/ddbj/ddbj_curator_assistant/tree/main/ddbj_kaeru)
    - Update work tracking spreadsheet, after running DDBJ Sakura2DB.
    - Command line
-   ```
-   /home/w3const/mssassist/ddbj_kaeru
-   ```
+     ```
+     /home/w3const/mssassist/ddbj_kaeru
+     ```
      - Former command line
-     ```
-     bash /home/andrea/scripts/ddbj_kaeru
-     ```
+       ```
+       bash /home/andrea/scripts/ddbj_kaeru
+       ```
 ---
 ## DBLink DDBJ and Search DBLink Documentation
 
