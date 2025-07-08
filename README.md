@@ -19,7 +19,7 @@ Notice ! The MSS tool repository have been migrated to [ddbj/mssassist](https://
      ```
      /home/w3const/mssassist/ddbj_mss_validation
      ```
-   - Former command line (production)
+   - Former command line
      ```
      bash /home/andrea/scripts/ddbj_mss_validation
      ```
