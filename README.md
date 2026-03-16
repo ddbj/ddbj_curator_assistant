@@ -1,3 +1,5 @@
+# This project has been replaced with https://github.com/ddbj/mssassist
+
 # DDBJ Curators' Assistant
 
 The system consists of:
